@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Countryz</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
+    <link rel="stylesheet" href="countryz/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="countryz/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="countryz/css/datepicker.css" />
+    <link rel="stylesheet" type="text/css" href="countryz/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="countryz/slick/slick-theme.css" />
+    <link rel="stylesheet" href="/countryz/css/templatemo-style.css">
+
+  </head>
+</head>
+
+<body>
+  <div class="tm-main-content" id="top">
+    <div class="tm-top-bar-bg"></div>
+    <div class="tm-top-bar" id="tm-top-bar">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg narbar-light">
+            <a class="navbar-brand mr-auto" href="#">
+              <img src="/countryz/img/logo.png" alt="Site logo"> Countryz
+            </a>
+            <button type="button" id="nav-toggle" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#mainNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#top">Home
+                    <span class="sr-only">(current)</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tm-section-2">Beautiful Earth</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tm-section-3">Places to Explore</a>
+                </li>
+
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="tm-page-wrap mx-auto">
+      <section class="tm-banner">
+        <div class="tm-container-outer tm-banner-bg">
+          <div class="container">
+
+            <div class="row tm-banner-row tm-banner-row-header">
+              <div class="col-xs-12">
+                <div class="tm-banner-header">
+                  <h1 class="text-uppercase tm-banner-title">Discover the World</h1>
+                  <img src="/countryz/img/dots-3.png" alt="Dots">
+                  <p class="tm-banner-subtitle">Learn more about different countries around the World</p>
+                  <a href="javascript:void(0)" class="tm-down-arrow-link">
+                    <i class="fa fa-2x fa-angle-down tm-down-arrow"></i>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="row tm-banner-row" id="tm-section-search">
+
+
+
+            </div>
+
+            <div class="tm-banner-overlay"></div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="p-5 tm-container-outer tm-bg-gray">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 mx-auto tm-about-text-wrap text-center">
+              <h2 class="text-uppercase mb-4">
+                <strong>Exotic</strong> countries at your finger-tips</h2>
+              <p class="mb-4">Countryz makes it possible for you to discover countries you ve never heard of before. Simply click the button
+                and all the countries of the world will be displayed on your finger tips.
+              </p>
+              <a href="#" class="text-uppercase btn-primary tm-btn">Explore Earth</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="tm-container-outer" id="tm-section-2">
+        <section class="tm-slideshow-section">
+          <div class="tm-slideshow">
+            <img src="/countryz/img/zebra2.png" alt="Image">
+            <img src="/countryz/img/city.png" alt="Image">
+            <img src="/countryz/img/elephant.png" alt="Image">
+          </div>
+          <div class="tm-slideshow-description tm-bg-primary">
+            <h2 class="">Africa a Continent with mystery</h2>
+            <ul>
+              <li>The longest river in the world, the Nile (4,132 miles), is located in Africa.</li>
+              <li>Africa has the world's largest desert, the Sahara, which is almost the size of the United States.</li>
+              <li>Victoria Falls is the largest waterfall in Africa; it is 355 feet high and one mile wide.</li>
+              <li>Madagascar is the largest island in Africa and the fourth largest island in the world. It is in the Indian
+                Ocean off the East coast of Africa.</li>
+              <li>The gorilla, which can be found in the continents jungles, is the worlds largest primate.</li>
+            </ul>
+            <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Discover more</a>
+          </div>
+        </section>
+        <section class="clearfix tm-slideshow-section tm-slideshow-section-reverse">
+
+          <div class="tm-right tm-slideshow tm-slideshow-highlight">
+            <img src="/countryz/img/eu.png" alt="Image">
+            <img src="/countryz/img/louvre.png" alt="Image">
+            <img src="/countryz/img/rome.png" alt="Image">
+          </div>
+
+          <div class="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
+            <h2 class="">Europe a Continent with History</h2>
+            <ul>
+              <li>There are 50 countries in Europe with a total of more than 742 million people living on the continent</li>
+              <li>Vatican City is the smallest country in the world, both by population and by size.</li>
+              <li>Greenland is the largest island in the world - considering Australia is a continent!</li>
+              <li>The Rhine Falls in Switzerland are the largest plain waterfalls in Europe.</li>
+              <li>The first humans appeared on the continent about 35,000 BC. </li>
+            </ul>
+            <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight">Discover more</a>
+          </div>
+
+        </section>
+        <section class="tm-slideshow-section">
+          <div class="tm-slideshow">
+            <img src="/countryz/img/beach.png" alt="Image">
+            <img src="/countryz/img/chile.png" alt="Image">
+            <img src="/countryz/img/jungle.png" alt="Image">
+          </div>
+          <div class="tm-slideshow-description tm-bg-primary">
+            <h2 class="">South America a place with rich Culture</h2>
+            <ul>
+              <li>Brazil. The country is covering more than half the continent's landmass. </li>
+              <li>Amazon River (6,437metres/4,000miles). The Amazon is not only the second longest river in the world after the
+                Nile, but also the Amazon carries more water than the world's other 10 biggest rivers combined!</li>
+              <li>While South America's rain forests also are some of the wettest places on the earth, the Atacama desert in
+                Chile is considered the driest place on earth.</li>
+              <li>Evidence of human life in South America dates back to 9000BC.</li>
+              <li>The Incas were the largest group of indigenous people in South America when the Europeans arrived.</li>
+            </ul>
+            <a href="#" class="text-uppercase tm-btn tm-btn-white tm-btn-white-primary">Discover More</a>
+          </div>
+        </section>
+      </div>
+      <div class="tm-container-outer" id="tm-section-3">
+        <ul class="nav nav-pills tm-tabs-links">
+          <li class="tm-tab-link-li">
+            <a href="#1a" data-toggle="tab" class="tm-tab-link">
+              <img src="/countryz/img/north-america.png" alt="Image" class="img-fluid"> North America
+            </a>
+          </li>
+          <li class="tm-tab-link-li">
+            <a href="#2a" data-toggle="tab" class="tm-tab-link">
+              <img src="/countryz/img/south-america.png" alt="Image" class="img-fluid"> South America
+            </a>
+          </li>
+          <li class="tm-tab-link-li">
+            <a href="#3a" data-toggle="tab" class="tm-tab-link">
+              <img src="/countryz/img/europe.png" alt="Image" class="img-fluid"> Europe
+            </a>
+          </li>
+          <li class="tm-tab-link-li">
+            <a href="#4a" data-toggle="tab" class="tm-tab-link active">
+
+              <img src="/countryz/img/asia.png" alt="Image" class="img-fluid"> Asia
+            </a>
+          </li>
+          <li class="tm-tab-link-li">
+            <a href="#5a" data-toggle="tab" class="tm-tab-link">
+              <img src="/countryz/img/africa.png" alt="Image" class="img-fluid"> Africa
+            </a>
+          </li>
+          <li class="tm-tab-link-li">
+            <a href="#6a" data-toggle="tab" class="tm-tab-link">
+              <img src="/countryz/img/australia.png" alt="Image" class="img-fluid"> Australia
+            </a>
+          </li>
+          <li class="tm-tab-link-li">
+            <a href="#7a" data-toggle="tab" class="tm-tab-link">
+              <img src="/countryz/img/antartica.png" alt="Image" class="img-fluid"> Antartica
+            </a>
+          </li>
+        </ul>
+        <div class="tab-content clearfix">
+
+        </div>
+      </div>
+
+      <footer class="tm-container-outer">
+        <p class="mb-0">Copyright ©
+          <span class="tm-current-year">2018</span> Your Company . Designed by
+          <a rel="nofollow" href="http://www.google.com/+templatemo" target="_parent">Template Mo</a>
+        </p>
+      </footer>
+    </div>
+  </div>
+
+  <script src="countryz/js/jquery-1.11.3.min.js"></script>
+  <script src="countryz/js/popper.min.js"></script>
+  <script src="countryz/js/bootstrap.min.js"></script>
+  <script src="countryz/js/datepicker.min.js"></script>
+  <script src="countryz/js/jquery.singlePageNav.min.js"></script>
+  <script src="countryz/slick/slick.min.js"></script>
+  <script src="countryz/js/jquery.scrollTo.min.js"></script>
+  <script type="text/javascript" src="/bundle.js"></script>
+</body>
+
+</html>
