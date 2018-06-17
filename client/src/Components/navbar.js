@@ -1,10 +1,14 @@
 import React, { Component } from "react";
-
+/*
+  ==================================
+    NAVBAR COMPONENT OF THE APP
+  ==================================
+*/
 class Nav extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-lg narbar-light">
-        <a className="navbar-brand mr-auto" href="#">
+        <a className="navbar-brand mr-auto" href="/">
           <img src="/countryz/img/logo.png" alt="Site logo" /> Countryz
         </a>
         <button

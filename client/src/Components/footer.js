@@ -1,5 +1,9 @@
 import React, { Component } from "react";
-
+/*
+  ==============================
+    FOOTER COMPONENT 
+  ==============================
+*/
 class Footer extends Component {
   render() {
     return (

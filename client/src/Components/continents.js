@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 
+/*
+  ===========================================
+    CONTINENT COMPONENT LISTING DIFFERENT MAPS
+  ===========================================
+*/
+
 class Continent extends Component {
   render() {
     return (

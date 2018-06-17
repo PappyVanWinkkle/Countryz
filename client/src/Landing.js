@@ -1,7 +1,13 @@
+/*
+*  =======================================
+     LANDING PAGE FOR THE APP
+   =======================================
+*/
+
 import React, { Component } from "react";
-import { Footer } from "./components";
-import { Continent } from "./components";
-import { Nav } from "./components";
+import { Footer } from "./Components";
+import { Continent } from "./Components";
+import { Nav } from "./Components";
 
 class Landing extends Component {
   render() {
@@ -109,7 +115,6 @@ class Landing extends Component {
                 <img src="/countryz/img/louvre.png" alt="Image" />
                 <img src="/countryz/img/rome.png" alt="Image" />
               </div>
-
               <div className="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
                 <h2 className="">Europe a Continent with History</h2>
                 <ul>

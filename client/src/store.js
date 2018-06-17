@@ -1,19 +1,22 @@
-// Store creation here also the combination of reducers using middleware.
+/*
+  ====================================================
+    STORE CREATION FOR THE APPLICATION WITH MIDDLEWARE
+  ====================================================
+*/
+
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
-import countryReducer from "./reducers";
+import countriesReducer from "./reducers";
 
 const initialState = {};
 
 const middleware = [thunk];
 
 const store = createStore(
-  countryReducer,
+  countriesReducer,
   initialState,
   compose(
     applyMiddleware(...middleware),
     window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
   )
 );
-
-export default store;
