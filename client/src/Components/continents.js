@@ -15,8 +15,8 @@ class Continent extends Component {
             <a href="#1a" data-toggle="tab" className="tm-tab-link">
               <img
                 src="/countryz/img/north-america.png"
-                alt="Image"
-                class="img-fluid"
+                alt=" north america"
+                className="img-fluid"
               />{" "}
               North America
             </a>
@@ -25,7 +25,7 @@ class Continent extends Component {
             <a href="#2a" data-toggle="tab" className="tm-tab-link">
               <img
                 src="/countryz/img/south-america.png"
-                alt="Image"
+                alt="south america"
                 className="img-fluid"
               />{" "}
               South America
@@ -35,8 +35,8 @@ class Continent extends Component {
             <a href="#3a" data-toggle="tab" className="tm-tab-link">
               <img
                 src="/countryz/img/europe.png"
-                alt="Image"
                 className="img-fluid"
+                alt=" europe"
               />{" "}
               Europe
             </a>
@@ -45,8 +45,8 @@ class Continent extends Component {
             <a href="#4a" data-toggle="tab" className="tm-tab-link active">
               <img
                 src="/countryz/img/asia.png"
-                alt="Image"
                 className="img-fluid"
+                alt="asia"
               />{" "}
               Asia
             </a>
@@ -55,8 +55,8 @@ class Continent extends Component {
             <a href="#5a" data-toggle="tab" className="tm-tab-link">
               <img
                 src="/countryz/img/africa.png"
-                alt="Image"
                 className="img-fluid"
+                alt="africa"
               />{" "}
               Africa
             </a>
@@ -65,8 +65,8 @@ class Continent extends Component {
             <a href="#6a" data-toggle="tab" className="tm-tab-link">
               <img
                 src="/countryz/img/australia.png"
-                alt="Image"
                 className="img-fluid"
+                alt="australia"
               />{" "}
               Australia
             </a>
@@ -75,8 +75,8 @@ class Continent extends Component {
             <a href="#7a" data-toggle="tab" className="tm-tab-link">
               <img
                 src="/countryz/img/antartica.png"
-                alt="Image"
                 className="img-fluid"
+                alt="antarctica"
               />{" "}
               Antartica
             </a>

@@ -6,20 +6,19 @@ import { GET_ALL_COUNTRIES } from "../actions/types";
   =================================
 */
 
-import { GET_ALL_COUNTRIES } from "../actions/types";
-
 const initialState = {
-  list: [],
-  countries: null
+  countries: ""
 };
 
 export default function(state = initialState, action) {
   switch (action.type) {
     case GET_ALL_COUNTRIES:
+      console.log(action.payload);
       return {
         ...state,
-        list: action.payload
+        data: action.payload
       };
+
     default:
       return state;
   }

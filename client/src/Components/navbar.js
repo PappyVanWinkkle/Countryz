@@ -14,15 +14,15 @@ class Nav extends Component {
         <button
           type="button"
           id="nav-toggle"
-          class="navbar-toggler collapsed"
+          className="navbar-toggler collapsed"
           data-toggle="collapse"
           data-target="#mainNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon" />
+          <span className="navbar-toggler-icon" />
         </button>
-        <div id="mainNav" class="collapse navbar-collapse tm-bg-white">
+        <div id="mainNav" className="collapse navbar-collapse tm-bg-white">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
               <a className="nav-link active" href="#top">
