@@ -15,7 +15,7 @@ export default function getCountries() {
       .then(response => {
         dispatch({
           type: GET_ALL_COUNTRIES,
-          payload: response.data
+          countries: response.data
         });
       })
       .catch(err => {

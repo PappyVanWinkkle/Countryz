@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
-import countriesReducer from "./reducers/countriesReducer";
+import countriesReducer from "./reducers";
 
 const initialState = {};
 
