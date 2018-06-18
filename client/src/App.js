@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import store from "./store";
 import Countries from "./Components/countries";
+import store from "./store";
 import { Provider } from "react-redux";
 import Landing from "./Landing";
 

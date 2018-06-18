@@ -1,24 +1,22 @@
+/*
+  =================================================
+   REDUCER FUNCTIONS TO HOLD THE STATE OF THE APP
+  =================================================
+*/
 import { GET_ALL_COUNTRIES } from "../actions/types";
 
-/*
-  =================================
-    INITIAL STATE OF THE APPLICATION
-  =================================
-*/
-
 const initialState = {
-  countries: ""
+  countries: {}
 };
 
 export default function(state = initialState, action) {
+  console.log(action);
   switch (action.type) {
     case GET_ALL_COUNTRIES:
-      console.log(action.payload);
       return {
         ...state,
-        data: action.payload
+        countries: action.payload
       };
-
     default:
       return state;
   }

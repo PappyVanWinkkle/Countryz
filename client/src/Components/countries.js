@@ -6,10 +6,13 @@
 
 import React, { Component } from "react";
 import { connect } from "react-redux";
-import countriesAction from "../actions/countriesAction";
+import getCountries from "../actions/countriesAction";
 import PropTypes from "prop-types";
 
 class Countries extends Component {
+  componentWillMount() {
+    this.props.getCountries();
+  }
   render() {
     return (
       <div>
@@ -19,16 +22,12 @@ class Countries extends Component {
   }
 }
 
-Countries.propTypes = {
-  countriesAction: PropTypes.func.isRequired,
-  countries: PropTypes.object.isRequired
-};
-
+//=== CONNECTING TO THE STORE ===//
 const mapStateToProps = state => ({
   countries: state.countries
 });
 
 export default connect(
   mapStateToProps,
-  { countriesAction }
+  { getCountries }
 )(Countries);

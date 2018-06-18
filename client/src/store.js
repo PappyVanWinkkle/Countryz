@@ -1,12 +1,6 @@
-/*
-  ====================================================
-    STORE CREATION FOR THE APPLICATION WITH MIDDLEWARE
-  ====================================================
-*/
-
 import { createStore, applyMiddleware, compose } from "redux";
 import thunk from "redux-thunk";
-import countriesReducer from "./reducers";
+import countriesReducer from "./reducers/countriesReducer";
 
 const initialState = {};
 
