@@ -6,6 +6,7 @@
 import { GET_ALL_COUNTRIES } from "../actions/types";
 
 const initialState = {
+  // empty state
   countries: []
 };
 

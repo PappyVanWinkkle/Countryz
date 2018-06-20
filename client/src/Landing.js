@@ -34,12 +34,6 @@ class Landing extends Component {
                       <p className="tm-banner-subtitle">
                         Learn more about different countries around the World
                       </p>
-                      <a
-                        href="javascript:void(0)"
-                        className="tm-down-arrow-link"
-                      >
-                        <i className="fa fa-2x fa-angle-down tm-down-arrow" />
-                      </a>
                     </div>
                   </div>
                 </div>

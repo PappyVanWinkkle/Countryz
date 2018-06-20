@@ -3,7 +3,6 @@ import thunk from "redux-thunk";
 import countriesReducer from "./reducers";
 
 const initialState = {};
-
 const middleware = [thunk];
 
 const store = createStore(

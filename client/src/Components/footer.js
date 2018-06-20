@@ -12,11 +12,6 @@ class Footer extends Component {
           Copyright &copy;
           <span className="tm-current-year">2018</span> . Developed by Paul
           Chabz
-          <a
-            rel="nofollow"
-            href="http://www.google.com/+templatemo"
-            target="_parent"
-          />
         </p>
       </footer>
     );
