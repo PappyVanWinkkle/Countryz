@@ -6,6 +6,7 @@ import Asia from "./Components/Asia";
 import store from "./store";
 import Europe from "./Components/Europe";
 import Ocean from "./Components/Oceania";
+import Americas from "./Components/Americas";
 import { Provider } from "react-redux";
 import Landing from "./Landing";
 
@@ -21,6 +22,7 @@ class App extends Component {
             <Route exact path="/europe" component={Europe} />
             <Route exact path="/asia" component={Asia} />
             <Route exact path="/oceania" component={Ocean} />
+            <Route exact path="/americas" component={Americas} />
           </div>
         </Router>
       </Provider>

@@ -10,11 +10,13 @@ import africanCountries from "./africanReducer";
 import europeanCountries from "./europeanReducer";
 import asianCountries from "./asianReducer";
 import oceanicCountries from "./oceanReducer";
+import americasCountries from "./americasReducer";
 
 export default combineReducers({
   countries: countries,
   africanCountries: africanCountries,
   europeanCountries: europeanCountries,
   asianCountries: asianCountries,
-  oceanicCountries: oceanicCountries
+  oceanicCountries: oceanicCountries,
+  americasCountries: americasCountries
 });
