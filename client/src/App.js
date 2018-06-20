@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Countries from "./Components/countries";
 import Africa from "./Components/AfricanNations";
+import Asia from "./Components/Asia";
 import store from "./store";
 import Europe from "./Components/Europe";
 import { Provider } from "react-redux";
@@ -17,6 +18,7 @@ class App extends Component {
             <Route exact path="/countries" component={Countries} />
             <Route exact path="/africa" component={Africa} />
             <Route exact path="/europe" component={Europe} />
+            <Route exact path="/asia" component={Asia} />
           </div>
         </Router>
       </Provider>

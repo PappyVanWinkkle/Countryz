@@ -8,9 +8,11 @@ import { combineReducers } from "redux";
 import countries from "./countriesReducer";
 import africanCountries from "./africanReducer";
 import europeanCountries from "./europeanReducer";
+import asianCountries from "./asianReducer";
 
 export default combineReducers({
   countries: countries,
   africanCountries: africanCountries,
-  europeanCountries: europeanCountries
+  europeanCountries: europeanCountries,
+  asianCountries: asianCountries
 });
