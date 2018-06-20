@@ -1,7 +1,7 @@
 /*
-  =====================================
-    COUNTRIES COMPONENT 
-  =====================================
+  ======================================
+    AFRICAN COUNTRIES COMPONENT 
+  ======================================
 */
 
 import React, { Component } from "react";
@@ -9,11 +9,11 @@ import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import Footer from "./footer";
 import Continents from "./continents";
-import getCountries from "../actions/countriesAction";
+import getAfricanCountries from "../actions/africanAction";
 
-class Countries extends Component {
+class Africa extends Component {
   componentWillMount() {
-    this.props.getCountries();
+    this.props.getAfricanCountries();
   }
   render() {
     return (
@@ -29,7 +29,8 @@ class Countries extends Component {
               <th scope="col">Demonym </th>
             </tr>
           </thead>
-          {this.props.countries.map(function(country, index) {
+
+          {this.props.africanCountries.map(function(country, index) {
             return (
               <tbody key={index}>
                 <tr>
@@ -48,18 +49,16 @@ class Countries extends Component {
   }
 }
 
-Countries.propTypes = {
-  getCountries: PropTypes.func.isRequired,
-  countries: PropTypes.array.isRequired
+Africa.propTypes = {
+  getAfricanCountries: PropTypes.func.isRequired,
+  africanCountries: PropTypes.array.isRequired
 };
 
-//=== CONNECTING TO THE STORE ===//
-
 const mapStateToProps = state => ({
-  countries: state.countries.countries
+  africanCountries: state.africanCountries.africanCountries
 });
 
 export default connect(
   mapStateToProps,
-  { getCountries }
-)(Countries);
+  { getAfricanCountries }
+)(Africa);

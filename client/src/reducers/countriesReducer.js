@@ -9,7 +9,11 @@ const initialState = {
   // empty state
   countries: []
 };
-
+/*
+    ===================================
+      REDUCER FOR ALL COUNTRIES
+    ===================================
+*/
 export default function(state = initialState, action) {
   switch (action.type) {
     case GET_ALL_COUNTRIES:
