@@ -60,7 +60,7 @@ class Landing extends Component {
                     tips.
                   </p>
                   <Link to="/countries">
-                    <button type="button" class="btn btn-primary">
+                    <button type="button" className="btn btn-primary">
                       Discover More
                     </button>
                   </Link>
@@ -102,12 +102,12 @@ class Landing extends Component {
                   </li>
                 </ul>
                 <Link to="/africa">
-                  <a
-                    href="#"
+                  <button
+                    href="/africa"
                     className="text-uppercase tm-btn tm-btn-white tm-btn-white-primary"
                   >
                     Discover more
-                  </a>
+                  </button>
                 </Link>
               </div>
             </section>
@@ -141,12 +141,12 @@ class Landing extends Component {
                   </li>
                 </ul>
                 <Link to="/europe">
-                  <a
+                  <button
                     href="/"
                     className="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight"
                   >
                     Discover more
-                  </a>
+                  </button>
                 </Link>
               </div>
             </section>
@@ -184,12 +184,12 @@ class Landing extends Component {
                   </li>
                 </ul>
                 <Link to="/americas">
-                  <a
+                  <button
                     href="/"
                     className="text-uppercase tm-btn tm-btn-white tm-btn-white-primary"
                   >
                     Discover More
-                  </a>
+                  </button>
                 </Link>
               </div>
             </section>

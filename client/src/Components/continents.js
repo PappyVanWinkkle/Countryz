@@ -1,10 +1,11 @@
-import React, { Component } from "react";
-
 /*
   ===========================================
     CONTINENT COMPONENT LISTING DIFFERENT MAPS
   ===========================================
 */
+
+import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 class Continent extends Component {
   render() {
@@ -12,74 +13,72 @@ class Continent extends Component {
       <div className="tm-container-outer" id="tm-section-3">
         <ul className="nav nav-pills tm-tabs-links">
           <li className="tm-tab-link-li">
-            <a href="#1a" data-toggle="tab" className="tm-tab-link">
+            <Link to="/americas" className="tm-tab-link">
               <img
                 src="/countryz/img/north-america.png"
                 alt=" north america"
                 className="img-fluid"
               />{" "}
-              North America
-            </a>
+            </Link>
           </li>
           <li className="tm-tab-link-li">
-            <a href="#2a" data-toggle="tab" className="tm-tab-link">
+            <Link to="/americas" className="tm-tab-link">
               <img
                 src="/countryz/img/south-america.png"
                 alt="south america"
                 className="img-fluid"
               />{" "}
-              South America
-            </a>
+            </Link>
           </li>
+
           <li className="tm-tab-link-li">
-            <a href="#3a" data-toggle="tab" className="tm-tab-link">
+            <Link to="/europe" className="tm-tab-link">
               <img
                 src="/countryz/img/europe.png"
                 className="img-fluid"
                 alt=" europe"
               />{" "}
-              Europe
-            </a>
+            </Link>
           </li>
           <li className="tm-tab-link-li">
-            <a href="#4a" data-toggle="tab" className="tm-tab-link active">
+            <Link
+              to="/asia"
+              className="tm-tab-link ls
+            "
+            >
               <img
                 src="/countryz/img/asia.png"
                 className="img-fluid"
                 alt="asia"
               />{" "}
-              Asia
-            </a>
+            </Link>
           </li>
           <li className="tm-tab-link-li">
-            <a href="#5a" data-toggle="tab" className="tm-tab-link">
+            <Link to="/africa" className="tm-tab-link">
               <img
                 src="/countryz/img/africa.png"
                 className="img-fluid"
                 alt="africa"
               />{" "}
-              Africa
-            </a>
+            </Link>
           </li>
           <li className="tm-tab-link-li">
-            <a href="#6a" data-toggle="tab" className="tm-tab-link">
+            <Link to="/oceania" className="tm-tab-link">
               <img
                 src="/countryz/img/australia.png"
                 className="img-fluid"
                 alt="australia"
               />{" "}
-              Australia
-            </a>
+            </Link>
           </li>
           <li className="tm-tab-link-li">
-            <a href="#7a" data-toggle="tab" className="tm-tab-link">
+            <Link to="/oceania" className="tm-tab-link">
               <img
                 src="/countryz/img/antartica.png"
                 className="img-fluid"
                 alt="antarctica"
               />{" "}
-              Antartica
-            </a>
+            </Link>
           </li>
         </ul>
         <div className="tab-content clearfix" />
