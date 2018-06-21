@@ -5,9 +5,10 @@
 */
 
 import React, { Component } from "react";
-import { Footer } from "./Components";
-import { Continent } from "./Components";
-import { Nav } from "./Components";
+import Footer from "./footer";
+import { Link } from "react-router-dom";
+import Continent from "./continents";
+import Nav from "./navbar";
 
 class Landing extends Component {
   render() {
@@ -32,11 +33,8 @@ class Landing extends Component {
                       </h1>
                       <img src="/countryz/img/dots-3.png" alt="Dots" />
                       <p className="tm-banner-subtitle">
-                        Learn more about different countries around the World
+                        Learn more about countries around the world.
                       </p>
-                      <a href="javascript:void(0)" class="tm-down-arrow-link">
-                        <i className="fa fa-2x fa-angle-down tm-down-arrow" />
-                      </a>
                     </div>
                   </div>
                 </div>
@@ -61,9 +59,11 @@ class Landing extends Component {
                     the countries of the world will be displayed on your finger
                     tips.
                   </p>
-                  <a href="#" className="text-uppercase btn-primary tm-btn">
-                    Explore Earth
-                  </a>
+                  <Link to="/countries">
+                    <button type="button" class="btn btn-primary">
+                      Discover More
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -72,16 +72,16 @@ class Landing extends Component {
           <div className="tm-container-outer" id="tm-section-2">
             <section className="tm-slideshow-section">
               <div className="tm-slideshow">
-                <img src="/countryz/img/zebra2.png" alt="Image" />
-                <img src="/countryz/img/city.png" alt="Image" />
-                <img src="/countryz/img/elephant.png" alt="Image" />
+                <img src="/countryz/img/zebra2.png" alt="zebra" />
+                <img src="/countryz/img/city.png" alt="city" />
+                <img src="/countryz/img/elephant.png" alt="elephant" />
               </div>
               <div className="tm-slideshow-description tm-bg-primary">
                 <h2 className="">Africa a Continent with mystery</h2>
                 <ul>
                   <li>
                     The longest river in the world, the Nile (4,132 miles), is
-                    located in Africa.
+                    located in Africa
                   </li>
                   <li>
                     Africa has the world's largest desert, the Sahara, which is
@@ -101,19 +101,21 @@ class Landing extends Component {
                     is the worlds largest primate.
                   </li>
                 </ul>
-                <a
-                  href="#"
-                  className="text-uppercase tm-btn tm-btn-white tm-btn-white-primary"
-                >
-                  Discover more
-                </a>
+                <Link to="/africa">
+                  <a
+                    href="#"
+                    className="text-uppercase tm-btn tm-btn-white tm-btn-white-primary"
+                  >
+                    Discover more
+                  </a>
+                </Link>
               </div>
             </section>
             <section className="clearfix tm-slideshow-section tm-slideshow-section-reverse">
               <div className="tm-right tm-slideshow tm-slideshow-highlight">
-                <img src="/countryz/img/eu.png" alt="Image" />
-                <img src="/countryz/img/louvre.png" alt="Image" />
-                <img src="/countryz/img/rome.png" alt="Image" />
+                <img src="/countryz/img/eu.png" alt="europe" />
+                <img src="/countryz/img/louvre.png" alt="lovre" />
+                <img src="/countryz/img/rome.png" alt="rome" />
               </div>
               <div className="tm-slideshow-description tm-slideshow-description-left tm-bg-highlight">
                 <h2 className="">Europe a Continent with History</h2>
@@ -138,19 +140,21 @@ class Landing extends Component {
                     The first humans appeared on the continent about 35,000 BC.{" "}
                   </li>
                 </ul>
-                <a
-                  href="#"
-                  className="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight"
-                >
-                  Discover more
-                </a>
+                <Link to="/europe">
+                  <a
+                    href="/"
+                    className="text-uppercase tm-btn tm-btn-white tm-btn-white-highlight"
+                  >
+                    Discover more
+                  </a>
+                </Link>
               </div>
             </section>
             <section className="tm-slideshow-section">
               <div className="tm-slideshow">
-                <img src="/countryz/img/beach.png" alt="Image" />
-                <img src="/countryz/img/chile.png" alt="Image" />
-                <img src="/countryz/img/jungle.png" alt="Image" />
+                <img src="/countryz/img/beach.png" alt="beach" />
+                <img src="/countryz/img/chile.png" alt="chile" />
+                <img src="/countryz/img/jungle.png" alt="jungle" />
               </div>
               <div className="tm-slideshow-description tm-bg-primary">
                 <h2 className="">South America a place with rich Culture</h2>
@@ -179,12 +183,14 @@ class Landing extends Component {
                     South America when the Europeans arrived.
                   </li>
                 </ul>
-                <a
-                  href="#"
-                  className="text-uppercase tm-btn tm-btn-white tm-btn-white-primary"
-                >
-                  Discover More
-                </a>
+                <Link to="/americas">
+                  <a
+                    href="/"
+                    className="text-uppercase tm-btn tm-btn-white tm-btn-white-primary"
+                  >
+                    Discover More
+                  </a>
+                </Link>
               </div>
             </section>
           </div>

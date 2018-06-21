@@ -1,6 +1,6 @@
 /*
   ======================================
-    AFRICAN COUNTRIES COMPONENT 
+    AFRICAN COUNTRIES COMPONENT
   ======================================
 */
 

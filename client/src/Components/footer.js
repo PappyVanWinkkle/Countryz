@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 /*
   ==============================
-    FOOTER COMPONENT 
+    FOOTER COMPONENT
   ==============================
 */
 class Footer extends Component {

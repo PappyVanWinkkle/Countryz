@@ -3,12 +3,14 @@
     COUNTRIES IN THE AMERICAS
   ===================================
 */
+
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import PropTypes from "prop-types";
 import Footer from "./footer";
 import Continents from "./continents";
 import getAmericas from "../actions/americasaAction";
+
 
 class America extends Component {
   componentWillMount() {

@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Countries from "./Components/countries";
 import Africa from "./Components/AfricanNations";
+import Landing from "./Components/Landing";
 import Asia from "./Components/Asia";
 import store from "./store";
 import Europe from "./Components/Europe";
 import Ocean from "./Components/Oceania";
 import Americas from "./Components/Americas";
 import { Provider } from "react-redux";
-import Landing from "./Landing";
 
 class App extends Component {
   render() {
